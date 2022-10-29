@@ -1,0 +1,5 @@
+(1 pt) Which are the three general-purpose set implementations in Java platform?
+HashSet, TreeSet, and LinkedHashSet
+
+(1 pt) ___________ is a collection that contains key-value pairs.
+Map
