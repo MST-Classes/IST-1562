@@ -1,15 +1,14 @@
 package me.nhall.ist;
 
 public class IST {
-   public static void main(String[] args) {
-       boolean[][] x = new boolean[3][];
+    public static void main(String[] args) {
+        int n = 5;
+        for (int i = 1; i <= n; i++) {
+            System.out.println("i" + i);
+            for (int j = 1; j <= n; j++) {
+                System.out.println("j" + j);
+            }
 
-       x[0] = new boolean[1];
-
-       x[1] = new boolean[2];
-
-       x[2] = new boolean[3];
-
-       System.out.println("x[2][2] is " + x[2][2]);
+        }
     }
 }
